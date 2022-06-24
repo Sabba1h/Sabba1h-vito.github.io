@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>需要您的反馈</title>
+    <link type="text/css" rel="stylesheet" href="CSS/feedback.css">
+  </head>
+    <body>
+        <header class="top">
+          <p>Welcome To My World</p><!--页眉大标题-->
+        </header>
+    
+        <nav><!--导航栏-->
+        <ul>
+            <li><a href="index.html">主页</a></li>	
+            <li><a href="award.html">获奖经历</a></li>	
+            <li><a href="photos.html">摄影分享</a></li>
+            <li><a href="feedback.html">反馈</a></li>
+        </ul>
+        </nav>   
+
+        <div id="tableContainer">
+        <div id="tableRow">
+        <section id="table">
+            <article>
+            <header>
+              <h1>小刘的问卷</h1>
+              <time datetime="2022-06-23">6/23/2022</time>
+            </header>
+            
+            <h1>The Questionaire</h1>
+    <h2>Fill out the form below and click "submit now" to feedback</h2>
+
+    <form action="http://" method="post">
+	<div class="tableRow">
+		<p>
+          Choose your position:
+		</p>
+		<p>
+            <select name="position">
+              <option value="Professor">Professor</option>
+              <option value="Associate Professor">Associate Professor</option>
+              <option value="Tutor">Tutor</option>
+              <option value="Student">Student</option>
+            </select>
+		</p>
+	</div>
+	<div class="tableRow">
+		<p> Score: </p>
+		<p>
+            <input type="radio" name="advisetype" value="0"> 0<br>
+            <input type="radio" name="advisetype" value="1"> 1<br>
+            <input type="radio" name="advisetype" value="2"> 2<br>
+            <input type="radio" name="advisetype" value="3"> 3<br>
+            <input type="radio" name="advisetype" value="4"> 4<br>
+            <input type="radio" name="advisetype" value="5"> 5<br>
+		</p>
+	</div>
+	<div class="tableRow label">
+		<p> Submission Date: </p>
+		<p> <input type="date" name="date"> </p>
+	</div>
+
+	<div class="tableRow">
+		<p class="heading"> Your Brief Information </p>
+		<p></p>
+	</div>
+	<div class="tableRow">
+		<p> Name: </p>
+		<p> <input type="text" name="name" value="" placeholder="Liu Jingle" required> </p>
+	</div>
+	<div class="tableRow">
+		<p> Address: </p>
+		<p> <input type="text" name="address" value="" placeholder="HuanHu Accomodation" required> </p>
+	</div>
+	<div class="tableRow">
+		<p> City: </p>
+		<p> <input type="text" name="city" value="" placeholder="Wuhan" required> </p>
+	</div>
+	
+	<div class="tableRow">
+		<p> Phone: </p>
+		<p> <input type="tel" name="phone" value="" placeholder="310-555-1212" required> </p>
+	</div>
+	<div class="tableRow">
+		<p> Your Comments: </p>
+		<p>
+            <textarea name="comments"></textarea>
+		</p>
+	</div>
+	<div class="tableRow">
+		<p></p>
+		<p> <input type="submit" value="Submit Now"> </p>
+	</div>
+    </form>
+          
+
+            </article>
+        </section>
+
+        </div> <!-- tableRow -->
+        </div> <!-- tableContainer -->
+
+    
+        <footer>
+            &copy; 2022, Liu Jingle
+            <br>
+            All photos appearing on this site 
+            are the property of Liu Jingle.
+          </footer>
+
+    </body>
+</html>

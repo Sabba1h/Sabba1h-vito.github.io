@@ -1,0 +1,132 @@
+body { 
+    background-color: #204969;
+    font-family:      Georgia, "Times New Roman", Times, sans-serif;
+    font-size:        small;
+    margin:           0px;
+  }
+
+header.top {
+    background-color: #8ac6d1;
+    margin: 10px 10px 0px 10px;
+    height:           108px;
+}
+header.top p{
+    font-size: 48px;
+    text-align: center;
+    margin: auto;
+    padding: 30px 30px 30px 30px;
+    color: #0d3f67;
+}
+
+div#tableContainer {
+	display: table;
+	border-spacing: 10px;
+}
+
+div#tableRow {
+	display: table-row;
+}
+
+section#briefIntro {
+    display: table-cell;
+    background-color: #dadada;
+    width: 30%;
+    padding: 15px;
+    vertical-align: top;
+}
+
+
+
+section#blog{
+    width: 50%;
+}
+
+section#blog article p img#sheying{
+    width: 600px;
+    height: 400px;
+}
+/* added section#blog for blog */
+section#main, section#blog {
+  display: table-cell;
+  background:       #dadada top left;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align: top;
+}
+
+aside {
+    display: table-cell;
+    background:       #dadada  bottom right;
+    font-size:        105%;
+    padding:          15px;
+    vertical-align: top;
+  }
+
+aside p.imgArea img#heying {
+    width: 400px;
+    height: 180px; 
+}
+
+aside p.imgArea img#shengsai {
+    width: 400px;
+    height: 300px; 
+}
+
+aside span.slogan{
+    font-size: smaller;
+    font-style: italic;
+    color: #6b778d;
+}
+
+aside p#linktophotos{
+    font-size: small;
+    font-style: italic;
+    color: #6b778d;
+}
+
+nav {
+    background-color: #fff7f7;
+	margin: 10px 10px 0px 10px;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+nav ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+nav ul li a:link, nav ul li a:visited {
+	color: #8ac6d1;
+	border-bottom: none;
+	font-weight: bold;
+
+
+}
+nav ul li.selected {
+	background-color: #c8b99c;
+}
+
+
+footer {
+    background-color: #17223b;
+    color:            #efe5d0;
+    text-align:       center;
+    padding:          15px;
+    margin: 0px 10px 10px 10px;
+    font-size:        90%;
+}
+
+aside a:link{
+    color: #8ac6d1;
+}
+aside a:visited{
+    color:#6b778d ;
+}
+aside a:hover{
+    color: #fff7f7;
+}
+aside a:active{
+    color: #17223b;
+}
